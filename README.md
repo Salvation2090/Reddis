@@ -46,6 +46,7 @@ docker-compose up -d
 Для установки Redis на локальную машину, выполните следующий скрипт с правами суперпользователя:
 
 ```bash
+sudo chmod u+x install_redis.sh
 sudo bash install_redis.sh
 ```
 
