@@ -39,14 +39,14 @@ sudo bash install_docker.sh
 ### Сборка Docker образа
 
 ```bash
-docker build -t redis-ubuntu:20.04 .
+sudo docker build -t redis-ubuntu:20.04 .
 sudo docker run -d --name redis-container -p 6388:6379 redis-ubuntu:20.04
 ```
 
 ### Запуск кластера Redis
 
 ```bash
-docker-compose up -d
+sudo docker compose up -d
 ```
 
 ### Установка Redis на локальную машину
