@@ -29,6 +29,13 @@ git clone https://github.com/Salvation2090/Reddis.git
 cd Reddis
 ```
 
+### Установка docker
+
+```bash
+sudo chmod u+x install_docker.sh
+sudo bash install_docker.sh
+```
+
 ### Сборка Docker образа
 
 ```bash
