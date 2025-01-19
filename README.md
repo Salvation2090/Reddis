@@ -25,8 +25,8 @@
 ### Клонирование репозитория
 
 ```bash
-git clone https://github.com/ваш_пользователь/ваш_репозиторий.git
-cd ваш_репозиторий
+git clone https://github.com/Salvation2090/Reddis.git
+cd Reddis
 ```
 
 ### Сборка Docker образа
