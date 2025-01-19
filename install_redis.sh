@@ -12,7 +12,6 @@ systemctl stop redis-server
 sed -e '/^supervised no/supervised systemd/' \
     -e 's/^# *bind 127\.0\.0\.1 ::1/bind 127.0.0.1 ::1' \
     /etc/redis/redis.conf >/etc/redis/redis.conf.new
-# $(date +%y%b%d-%H%M%S) == "18Aug13-125913"
 mv /etc/redis/redis.conf /etc/redis/redis.conf.$(date +%y%b%d-%H%M%S)
 mv /etc/redis/redis.conf.new /etc/redis/redis.conf
 systemctl start redis-server
