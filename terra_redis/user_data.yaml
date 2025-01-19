@@ -31,7 +31,6 @@ fqdn: "redis"
 
 runcmd:
   - git clone git clone https://github.com/Salvation2090/Reddis.git .
-  - chmod -R 777 /opt/Reddis
   - cd Reddis
   - sudo chmod u+x install_redis.sh
   - sudo bash install_redis.sh
